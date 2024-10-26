@@ -1,5 +1,6 @@
 Hello!
 This is a part of my snake game project using C, it is a terminal based project. 
+To run this game download the file and run the .exe file 
 In this project I have done the following: 
 
   -  Created the game board / background
