@@ -1,13 +1,15 @@
-Hello!
-This is a part of my snake game project using C, it is a terminal based project. 
-To run this game download the file and run the .exe file 
-In this project I have done the following: 
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mLqiHWLE)
+# COE2SH4 - Course Project Template
+Course Project
 
-  -  Created the game board / background
-  -  Let user control the movement with wasd.
-  -  Not let Users turn around instanstly i.e if going up must turn left then down to go down.
-  -  Change speed of the game from 1-5 speeds. 5 is the highest speed.
-  -  If user goes to the border, they will appear on the other end.
-  -  Finally, they can quit the game.  
+You must watch the briefing video and read through the manual to engage in the development activities.
 
-The next part of the project will focus on the spawing of the apple in the game. 
+
+Section: [L02]
+
+Team Information
+Member 1 MacID: [memonn]
+Member 1 StudentID: [400506502]
+
+Member 2 MacID: [bayario]
+Member 2 StudentID: [400523052]

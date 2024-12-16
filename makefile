@@ -1,8 +1,8 @@
-CC=gcc
+CC=g++
 CFLAGS=-I. -g
-OBJ = MacUILib.o PPA2.o 
+OBJ = GameMechs.o objPos.o objPosArrayList.o Food.o MacUILib.o Player.o Project.o
 DEPS = *.h
-EXEC = PPA2
+EXEC = Project
 
 ifeq (${OS}, Windows_NT)
 	OSSETTING = -DWINDOWS
@@ -11,7 +11,7 @@ else
 	POSTLINKER = -lncurses
 endif
 
-%.o: %.c $(DEPENDS)
+%.o: %.cpp $(DEPENDS)
 	$(CC) ${OSSETTING} -c -o $@ $< $(CFLAGS)
 
 ${EXEC} : $(OBJ)
@@ -19,5 +19,4 @@ ${EXEC} : $(OBJ)
 
 clean :
 	rm -r ${OBJ} ${EXEC} ${EXEC}.exe
-	
 
