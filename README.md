@@ -1,15 +1,32 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mLqiHWLE)
-# COE2SH4 - Course Project Template
-Course Project
+> **Snake Game 🐍**
+This project is a simple Snake Game built in C++. The player controls a snake that grows longer as it eats food. The game ends when the snake collides with itself.
 
-You must watch the briefing video and read through the manual to engage in the development activities.
+**Features**
+Classic snake game mechanics.
+Simple and responsive controls using W, A, S, D keys.
+Game-over condition: The game ends if the snake runs into itself.
+Terminal-based gameplay for a lightweight and nostalgic experience.
 
+How to Play
+Use the following keys to control the snake:
 
-Section: [L02]
+W: Move Up
+A: Move Left
+S: Move Down
+D: Move Right
+Objective:
 
-Team Information
-Member 1 MacID: [memonn]
-Member 1 StudentID: [400506502]
+Eat the food to grow longer.
+Avoid running into yourself – doing so ends the game.
 
-Member 2 MacID: [bayario]
-Member 2 StudentID: [400523052]
+Setup Instructions:
+
+Clone the Repository
+Use the make command to compile the game
+After building, run the executable file that gets created
+
+Technologies Used
+Language: C++
+Platform: Terminal/Command Line Interface
+
+Enjoy playing Snake in the terminal, and try not to crash into yourself! 🐍
