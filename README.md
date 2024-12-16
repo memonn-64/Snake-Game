@@ -1,5 +1,6 @@
 **Snake Game 🐍**
-This project is a simple Snake Game built in C++. The player controls a snake that grows longer as it eats food. The game ends when the snake collides with itself.
+This project is a simple Snake Game built in C++. The player controls a snake that grows longer as it eats food. The game ends when the snake collides with itself. \n
+
 
 
 
